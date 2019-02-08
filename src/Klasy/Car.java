@@ -18,9 +18,8 @@ public class Car  extends Vehicle {
 
     @Override
     public String toString() {
-        super.toString();
-        return "Klasy.Car{" +
-                "seat=" + seat +
+
+        return  super.toString() + " seat=" + seat +
                 '}';
     }
 }

@@ -37,7 +37,7 @@ public abstract class Vehicle implements Moveable {
         return "Klasy.Vehicle{" +
                 "nameCar='" + nameCar + '\'' +
                 ", year=" + year +
-                '}';
+                "} ";
     }
 
     @Override
@@ -59,4 +59,6 @@ public abstract class Vehicle implements Moveable {
     public void goBack() {
         direction =(Direction.GO_BACK).getDescription();
     }
+
+
 }
