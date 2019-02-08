@@ -1,3 +1,5 @@
+package Klasy;
+
 public class MotoBike extends Vehicle {
 
     private int maxSpeed;
@@ -19,7 +21,7 @@ public class MotoBike extends Vehicle {
     @Override
     public String toString() {
         super.toString();
-        return "MotoBike{" +
+        return "Klasy.MotoBike{" +
                 "maxSpeed=" + maxSpeed +
                 '}';
     }

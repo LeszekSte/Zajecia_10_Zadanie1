@@ -1,3 +1,5 @@
+package Klasy;
+
 public class Car  extends Vehicle {
     private int seat;
 
@@ -17,7 +19,7 @@ public class Car  extends Vehicle {
     @Override
     public String toString() {
         super.toString();
-        return "Car{" +
+        return "Klasy.Car{" +
                 "seat=" + seat +
                 '}';
     }
